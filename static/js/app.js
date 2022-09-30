@@ -92,10 +92,19 @@ function DrawBubbleChart(sampleId)
     });
 }
 
+ 
+
+
+
+
+
+
+
 function ShowMetaData(sampleId)
 {
     console.log(`Show Meta Data: ${sampleId}`);
 
+    
     d3.json(url).then(data => {
     console.log(data);
 
